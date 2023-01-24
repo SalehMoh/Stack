@@ -18,6 +18,7 @@ def pop(stackpop):
 
 mystack = []
 mystack = Create_stack()
+print(pop(mystack))
 push(mystack,'1')
 print(mystack)
 push(mystack,'2')
@@ -37,3 +38,4 @@ print('pop item is:', pop(mystack))
 print(mystack)
 print('pop item is:', pop(mystack))
 print(mystack)
+
